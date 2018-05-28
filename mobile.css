@@ -1,4 +1,12 @@
 
+html {
+    font-family: "articulat-cf";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 120%;
+    line-height: 1.6;
+}
+
 * {
     margin: 0 0 0 0;
     padding: 0;
@@ -8,11 +16,6 @@
 
 
 body {
-    font-family: "articulat-cf";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 120%;
-    line-height: 1.6;
     margin-bottom: 2rem;
 }
 
@@ -46,7 +49,7 @@ p {
 }
 
 .paragraph-smaller-text {
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 
 #navBar {
