@@ -163,7 +163,9 @@ img {
 }
 
 #statBlock1 {
-    margin: auto;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     width: 8.5rem;
     float: left;
 }
