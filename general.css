@@ -1,0 +1,164 @@
+/*
+  ADOBE CASLON PRO
+*/
+
+@font-face {
+  font-family: "adobe-caslon-pro";
+  src: url("Fonts/ACaslonPro-Regular.otf") format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adobe-caslon-pro";
+  src: url('Fonts/ACaslonPro-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "adobe-caslon-pro";
+  src: url('Fonts/ACaslonPro-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adobe-caslon-pro";
+  src: url('Fonts/ACaslonPro-SemiboldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "adobe-caslon-pro";
+  src: url('Fonts/ACaslonPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "adobe-caslon-pro";
+  src: url('Fonts/ACaslonPro-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*
+  ARTICULAT CF
+*/
+
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-ThinOblique.otf') format('opentype');
+  font-weight: 100;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-ExtraLightOblique.otf') format('opentype');
+  font-weight: 200;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-LightOblique.otf') format('opentype');
+  font-weight: 300;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-Text.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-TextOblique.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-MediumOblique.otf') format('opentype');
+  font-weight: 500;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCFv2-DemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-DemiBoldOblique.otf') format('opentype');
+  font-weight: 600;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-ExtraBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-ExtraBoldOblique.otf') format('opentype');
+  font-weight: 700;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-Heavy.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-HeavyOblique.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/*

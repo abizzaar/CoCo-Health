@@ -1,0 +1,260 @@
+
+* {
+    margin: 0 0 0 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+body {
+    font-family: "articulat-cf";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100%;
+    line-height: 1.6;
+    margin-bottom: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h1 {
+    font-weight: 200;
+   /* font-size: 2rem; */
+    font-size: 8vw;
+}
+
+h2 {
+    font-size: 1.7rem; 
+    font-family: "adobe-caslon-pro";
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: "articulat-cf";
+    
+}
+
+.containerParagraphText {
+    margin-right: 1em;
+}
+
+.paragraph-smaller-text {
+    font-size: 0.9em;
+}
+
+#navBar {
+
+}
+
+#navList {
+    display: none;
+}
+
+#containerOfficeHeader {
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+#imageHappyOfficeSmallScreen {
+    opacity: 0.8;
+    margin-bottom: 3em;
+}
+
+#imageHappyOfficeLargeScreen {
+    display: none;
+}
+
+#headerInImage {
+    position: absolute;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-right: 10%;
+    padding-right: 5%;
+    padding-bottom: 4vw;
+    top: 5em;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#companyName {
+    font-size: 1.5rem;
+    padding-left: 0.8rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    
+}
+
+#companyNameCoCo {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.containerSection {
+    width: 80%;
+    margin: auto;
+}
+
+.pinkBorder {
+    padding-top: 0.4em;
+    border-top: #FFE3F0 3px solid;
+    border-left: #FFE3F0 3px solid;
+    margin-left: -0.5em;
+    padding-left: 0.4em;
+}
+
+#introToCoco {
+    margin-top: 1.7em;
+    padding-top: 0.6em;
+    padding-left: 0.7em;
+    padding-bottom: 0.6em;
+    padding-right: 1em;
+    background: #F0F0F0;
+    font-family: "adobe-caslon-pro";
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+#imageManCoffeeSmiling {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    opacity: 0.9;
+}
+
+.problemRow {
+    display: flex;
+    width: 75%;
+    margin-top: 1.5em;
+    margin-right: auto;
+    margin-left: 12%;
+}
+
+.problemStatBlock {
+    border: #DEDEDE 1px solid
+}
+
+.statHeader {
+    font-size: 3.5rem;
+    font-weight: 100;
+    border-bottom: #FFE3F0 3px solid;
+    text-align: center;
+}
+
+.statDescr {
+    padding-top: 0.2em;
+    padding-bottom: 0.4em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    text-align: center;
+}
+
+#statBlock1 {
+    margin: auto;
+    width: 7.5rem;
+    float: left;
+}
+
+#statBlock2 {
+    
+    margin: auto;
+    width: 7.5rem;
+    float: left;
+}
+
+#statBlock3 {
+    margin: auto;
+    width: 12em;
+    margin-bottom: 3em;
+}
+
+#imageCounselor {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.ourApproachRowHeadingContainer {
+    display: flex;
+    margin-bottom: 0.1em;
+    margin-top: 1.5em;
+}
+
+.ourApproachRowHeading {
+    font-family: "adobe-caslon-pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    float: left;
+    border-bottom: #FFE3F0 3px solid;
+}
+
+.ourApproachRowParagraph {
+    padding-right: 1.5em;
+}
+
+.aboutUsContainer {
+    margin-top: 2em;
+}
+
+.rowPersonBio {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.imageAboutUsContainer {
+    width: 50%;
+    float: left;
+}
+
+.imageAboutUs {
+    width: 100%;
+}
+
+.containerBioAboutUs {
+    float: left;
+    padding-left: 1em;
+}
+
+.containerBioAndTitle {
+    width: 80%;
+    border-bottom: #FFE3F0 3px solid;
+}
+
+.bioName {
+    font-family: "adobe-caslon-pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1.3;
+}
+
+.bioTitle {
+    font-weight: 100;
+    font-style: normal;
+}
+
+.bioLogoContainer {
+    height: 0.5rem;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.bioLogo {
+
+    height: 0.7rem;
+    width: auto;
+    padding: 0 0 0 0;
+}
