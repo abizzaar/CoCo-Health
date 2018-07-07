@@ -1,9 +1,11 @@
 
+
+
 html {
     font-family: "articulat-cf";
     font-style: normal;
     font-weight: 300;
-    font-size: 100%;
+    font-size: 110%;
     line-height: 1.6;
 }
 
@@ -12,6 +14,7 @@ html {
     padding: 0;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
+    
 }
 
 
@@ -94,7 +97,8 @@ img {
     padding-left: 0.8rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
-    
+    width: 20%;
+    display: inline-block;
 }
 
 #companyNameCoCo {
@@ -121,12 +125,13 @@ img {
     padding-left: 0.7rem;
     padding-bottom: 0.6rem;
     padding-right: 1rem;
-    background: #F0F0F0;
+    background: #F5F5F5;
     font-family: "adobe-caslon-pro";
     font-style: italic;
     font-size: 1.1rem;
     margin-top: 1.7rem;
-    font-weight: 600;
+    font-weight: 400;
+    box-shadow: -2px 3px 7px #C2C2C2;
 }
 
 #imageManCoffeeSmiling {
@@ -135,16 +140,20 @@ img {
     opacity: 0.9;
 }
 
+#imageManCoffeeSmilingWide {
+    display: none;
+}
+
 .problemRow {
     display: flex;
-    width: 75%;
     margin-top: 1rem;
-    margin-right: auto;
-    margin-left: 12%;
 }
 
 .problemStatBlock {
-    border: #DEDEDE 1px solid
+    border: #DEDEDE 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8.5rem;
 }
 
 .statHeader {
@@ -164,28 +173,22 @@ img {
 #statBlock1 {
     font-size: 3.5rem;
     margin-top: 0.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 8.5rem;
     float: left;
 }
 
 #statBlock2 {
     font-size: 3.5rem;
-    margin: auto;
-    width: 8.5rem;
     float: left;
 }
 
 #statBlock3 {
     font-size: 3.1rem;
-    margin: auto;
-    width: 8.5rem;
     margin-bottom: 3rem;
 }
 
 #statHeaderBlock3 {
-    padding-bottom: 0.1rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.3rem;
 }
 
 #imageCounselor {
@@ -213,9 +216,6 @@ img {
     padding-right: 1.5rem;
 }
 
-.aboutUsContainer {
-    margin-top: 2rem;
-}
 
 .rowPersonBio {
     width: 80%;
@@ -226,7 +226,7 @@ img {
 }
 
 .imageAboutUsContainer {
-    width: 55%;
+    width: 50%;
     float: left;
 }
 
@@ -236,7 +236,7 @@ img {
 
 .containerBioAboutUs {
     float: left;
-    padding-left: 4vw;
+    padding-left: 7%;
     width: 45%;
 }
 
@@ -246,7 +246,6 @@ img {
     width: 80%;
     border-bottom: #FFE3F0 3px solid;
 }
-
 
 .bioName {
     font-family: "adobe-caslon-pro";
@@ -261,10 +260,7 @@ img {
     font-style: normal;
 }
 
-
-
 .bioLogoContainer {
-    
     width: 100%;
     
 }
@@ -287,20 +283,24 @@ img {
     opacity: 0.6;
 }
 
+#noteSeparateHeading {
+    margin-top: 2rem;
+}
+
 #noteFromFoundersSection {
-    width: 80%;
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #noteFromFounders {
-    margin-top: 1rem;
+    margin-top: 1.1rem;
     padding-top: 0.8rem;
     padding-bottom: 0.6rem;
-    
-    background: #F0F0F0;
+    background: #F5F5F5;
     font-family: "adobe-caslon-pro";
+    font-size: 1.1rem;
     font-style: italic;
-    font-size: 1rem;
+    box-shadow: -2px 3px 7px #C2C2C2;
 }
 
 #topSectionNote {
@@ -325,12 +325,6 @@ img {
 
 /* for iphone5 and other thin phones */
 @media only screen and (max-width: 350px) {
-
-    html {
-        font-size: 110%;
-    }
-
-
 
     .bioLogo {
         height: 0.8rem;

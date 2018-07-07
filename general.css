@@ -102,7 +102,7 @@
   font-family: "articulat-cf";
   src: url('Fonts/ArticulatCF-TextOblique.otf') format('opentype');
   font-weight: 400;
-  font-style: normal;
+  font-style: oblique;
 }
 
 @font-face {

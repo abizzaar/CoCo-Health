@@ -6,6 +6,7 @@
   <title>CoCoHealth | Counseling for Businesses</title>
   <link rel="stylesheet" type="text/css" href="general.css" />
   <link rel="stylesheet" type="text/css" href="mobile.css" />
+  <link rel="stylesheet" type="text/css" href="ipad.css" />
   <link rel="stylesheet" type="text/css" href="laptop.css" />
 </head>
 
@@ -16,15 +17,15 @@
     <span id="companyNameCoCo">CoCo</span><span id="companyNameHealth">Health</span>
   </div>
   <ul id="navList">
-    <li>Mission</li>
-    <li>Approach</li>
-    <li>Contact</li>
+    <li>MISSION</li>
+    <li>APPROACH</li>
+    <li>CONTACT</li>
   </ul>
 </nav>
 
-<div class="containerOfficeHeader">
+<div  class="containerOfficeHeader">
   <img id="imageHappyOfficeSmallScreen" src="Media/happyOfficeSmallScreen.png">
-  <img id="imageHappyOfficeLargeScreen" src="Media/happyOfficeLargeScreen">
+  <img id="imageHappyOfficeLargeScreen" src="Media/happyOfficeLargeScreen.png">
   <header id="headerInImage">
     <h1>Providing performance, stress management and 
       mental fitness through portable, one-on-one 
@@ -33,10 +34,7 @@
   </header>
 </div>
 
-
-
-
-<div class="containerSection">
+<div id="containerWeMaximize" class="containerSection">
   <h2 class="pinkBorder">
     We maximize performance, 
     engagement and happiness
@@ -56,19 +54,24 @@
 </div>
 
 <img id="imageManCoffeeSmiling" src="Media/manCoffeeSmiling.jpg">
+<img id="imageManCoffeeSmilingWide" src="Media/manCoffeeSmilingWide.jpg">
 
-<div class="containerSection">
+<div class="laptopLine"></div>
+
+<div id="containerButWait" class="containerSection">
   <h2 class="pinkBorder">
     But wait. Aren’t we doing 
     just fine?
   </h2>
-  
-  <p class="containerParagraphText">
+
+  <p id="paragraphButWait" class="containerParagraphText">
     No we aren’t. Increasing levels of stress are leading to turnover, 
     absenteeism, low engagement, and loss of productivity at work. Even 
     for those of us who want to do something about it, it’s impossible to find time.
   </p>
+
 </div>
+
 
 <!--
 
@@ -98,46 +101,50 @@
 
  -->
 
- <div class="problemRow">
-  <div id="statBlock1" class="problemStatBlock">
-    <h5 class="statHeader">
-      42%
-    </h5>
-    <p class="statDescr paragraph-smaller-text">
-      of employees 
-      have left a job 
-      due to stress
-    </p>
+ <div id="problemContainer">
+  <div class="problemRow" id="problemRow1">
+    <div id="statBlock1" class="problemStatBlock">
+      <h5 class="statHeader">
+        42%
+      </h5>
+      <p class="statDescr paragraph-smaller-text">
+        of employees 
+        have left a job 
+        due to stress
+      </p>
+    </div>
+  </div>
+
+  <div class="problemRow">
+    <div id="statBlock2" class="problemStatBlock">
+      <h5 class="statHeader">
+        30%
+      </h5>
+      <p class="statDescr paragraph-smaller-text">
+        only 30% of 
+        employees are 
+        engaged at work
+      </p>
+    </div>
+  </div>
+
+  <div class="problemRow">
+    <div id="statBlock3" class="problemStatBlock">
+      <h5 id="statHeaderBlock3" class="statHeader">
+        $300B
+      </h5>
+      <p class="statDescr paragraph-smaller-text">
+        estimated annual cost of 
+        stress for U.S. 
+        workplaces
+      </p>
+    </div>
   </div>
 </div>
 
-<div class="problemRow">
-  <div id="statBlock2" class="problemStatBlock">
-    <h5 class="statHeader">
-      30%
-    </h5>
-    <p class="statDescr paragraph-smaller-text">
-      only 30% of 
-      employees are 
-      engaged at work
-    </p>
-  </div>
-</div>
+<div class="laptopLine"></div>
 
-<div class="problemRow">
-  <div id="statBlock3" class="problemStatBlock">
-    <h5 id="statHeaderBlock3" class="statHeader">
-      $300B
-    </h5>
-    <p class="statDescr paragraph-smaller-text">
-      estimated annual cost of 
-      stress for U.S. 
-      workplaces
-    </p>
-  </div>
-</div>
-
-<div class="containerSection">
+<div id="containerOurApproach" class="containerSection">
   <h2 class="pinkBorder">
     Our Approach
   </h2>
@@ -154,124 +161,127 @@
 
 <img id="imageCounselor" src="Media/counselor.jpg">
 
-<div class="containerSection">
-  <div class="h3HeadingContainer">
-    <h3 class="h3Heading">
-        Human-centered
-    </h3>
-  </div>  
-  <p class="ourApproachRowParagraph paragraph-smaller-text">
-      Workplace stress is best addressed with a human touch, and no technology can 
-      replace that. Our approach puts counselors in the heart of your office right 
-      where they make can make a difference.
-  </p>
+<div id="containerBulletsOurApproach">
+  <div class="containerBullet containerSection">
+    <div class="h3HeadingContainer">
+      <h3 class="h3Heading">
+          Human-centered
+      </h3>
+    </div>  
+    <p class="ourApproachRowParagraph paragraph-smaller-text">
+        Workplace stress is best addressed with a human touch, and no technology can 
+        replace that. Our approach puts counselors in the heart of your office right 
+        where they make can make a difference.
+    </p>
+  </div>
+
+  <div class="containerBullet containerSection">
+    <div class="h3HeadingContainer">
+      <h3 class="h3Heading">
+        Scientifically proven
+      </h3>
+    </div>  
+    <p class="ourApproachRowParagraph paragraph-smaller-text">
+      Our counselors are the best in the business, licensed and trained to leverage 
+      cutting-edge research in positive psychology, be it solution-focused therapy, 
+      cognitive behavioral therapy, or motivational interviewing.
+    </p>
+  </div>
+
+  <div class="containerBullet containerSection">
+    <div class="h3HeadingContainer">
+      <h3 class="h3Heading">
+        Fast and Effective
+      </h3>
+    </div>  
+    <p class="ourApproachRowParagraph paragraph-smaller-text">
+      Our counselors are the best in the business, licensed and trained to leverage 
+      cutting-edge research in positive psychology, be it solution-focused therapy, 
+      cognitive behavioral therapy, or motivational interviewing.
+    </p>
+  </div>
+
+  <div class="containerBullet containerSection">
+    <div class="h3HeadingContainer">
+      <h3 class="h3Heading">
+        Personalized
+      </h3>
+    </div>  
+    <p class="ourApproachRowParagraph paragraph-smaller-text">
+      Each client has their own needs, and we respect that. Our counselors are experts 
+      in learning about a company’s values and work culture, making our services highly 
+      tailored the client.
+    </p>
+  </div>
+
 </div>
 
-<div class="containerSection">
-  <div class="h3HeadingContainer">
-    <h3 class="h3Heading">
-      Scientifically proven
-    </h3>
-  </div>  
-  <p class="ourApproachRowParagraph paragraph-smaller-text">
-    Our counselors are the best in the business, licensed and trained to leverage 
-    cutting-edge research in positive psychology, be it solution-focused therapy, 
-    cognitive behavioral therapy, or motivational interviewing.
-  </p>
-</div>
 
-<div class="containerSection">
-  <div class="h3HeadingContainer">
-    <h3 class="h3Heading">
-      Fast and Effective
-    </h3>
-  </div>  
-  <p class="ourApproachRowParagraph paragraph-smaller-text">
-    Our counselors are the best in the business, licensed and trained to leverage 
-    cutting-edge research in positive psychology, be it solution-focused therapy, 
-    cognitive behavioral therapy, or motivational interviewing.
-  </p>
-</div>
+<div class="laptopLine"></div>
 
-<div class="containerSection">
-  <div class="h3HeadingContainer">
-    <h3 class="h3Heading">
-      Personalized
-    </h3>
-  </div>  
-  <p class="ourApproachRowParagraph paragraph-smaller-text">
-    Each client has their own needs, and we respect that. Our counselors are experts 
-    in learning about a company’s values and work culture, making our services highly 
-    tailored the client.
-  </p>
-</div>
-
-
-<div class="aboutUsContainer">
-  <div class="containerSection">
-    <h2 class="pinkBorder">
-      About Us
+<div id="noteSeparateHeading" class="containerSection">
+    <h2 id="headingAboutUs" class="pinkBorder">
+      A Note from the Founders
     </h2>  
-  </div>
-  <div class="rowPersonBio">
-    <div class="imageAboutUsContainer">
-      <img class="imageAboutUs" src="Media/jonathan.jpg">
-    </div>
-      <div class="containerBioAboutUs">
-        <div class="containerBioAndTitle">
-          <h4 class="bioName">
-            Jonathan Bateman
-          </h4>
-          <p class="bioTitle paragraph-smaller-text">
-            Co-Founder
-          </p>
-        </div>
-    
-        <div class="biologoContainer">
-          <img id="logoKellogg" class="bioLogo" src="Media/kellogg.svg">
-        </div>
-        <div class="biologoContainer">
-          <img id="logoRiverside" class="bioLogo" src="Media/riverside.svg">
-        </div>
-        <div class="biologoContainer">
-          <img id="logoBCG" class="bioLogo" src="Media/bcg.svg">
-        </div>
+</div>
 
+<div id="aboutUsContainer">
+  <div id="containerPersonBio">
+    <div class="rowPersonBio">
+      <div class="imageAboutUsContainer">
+        <img class="imageAboutUs" src="Media/jonathan.jpg">
       </div>
-  </div>
-  <div class="rowPersonBio">
-    <div class="imageAboutUsContainer">
-      <img class="imageAboutUs" src="Media/daniela.jpg">
-    </div>
-      <div class="containerBioAboutUs">
-        <div class="containerBioAndTitle">
-          <h4 class="bioName">
-            Daniela Vosti
-          </h4>
-          <p class="bioTitle paragraph-smaller-text">
-            Co-Founder
-          </p>
-        </div>
-        
-        <div class="biologoContainer">
-          <img id="logoNUMed" class="bioLogo" src="Media/nu_med.svg">
-        </div>
-        <div class="biologoContainer">
-          <img id="logoUChic" class="bioLogo" src="Media/uchic.svg">
-        </div>
-        <div class="biologoContainer">
-          <img id="logoUCLA" class="bioLogo" src="Media/ucla.svg">
-        </div>
+        <div class="containerBioAboutUs">
+          <div class="containerBioAndTitle">
+            <h4 class="bioName">
+              Jonathan Bateman
+            </h4>
+            <p class="bioTitle paragraph-smaller-text">
+              Co-Founder
+            </p>
+          </div>
+      
+          <div class="biologoContainer">
+            <img id="logoKellogg" class="bioLogo" src="Media/kellogg.svg">
+          </div>
+          <div class="biologoContainer">
+            <img id="logoRiverside" class="bioLogo" src="Media/riverside.svg">
+          </div>
+          <div class="biologoContainer">
+            <img id="logoBCG" class="bioLogo" src="Media/bcg.svg">
+          </div>
 
+        </div>
+    </div>
+    <div class="rowPersonBio">
+      <div class="imageAboutUsContainer">
+        <img class="imageAboutUs" src="Media/daniela.jpg">
       </div>
+        <div class="containerBioAboutUs">
+          <div class="containerBioAndTitle">
+            <h4 class="bioName">
+              Daniela Vosti
+            </h4>
+            <p class="bioTitle paragraph-smaller-text">
+              Co-Founder
+            </p>
+          </div>
+          
+          <div class="biologoContainer">
+            <img id="logoNUMed" class="bioLogo" src="Media/nu_med.svg">
+          </div>
+          <div class="biologoContainer">
+            <img id="logoUChic" class="bioLogo" src="Media/uchic.svg">
+          </div>
+          <div class="biologoContainer">
+            <img id="logoUCLA" class="bioLogo" src="Media/ucla.svg">
+          </div>
+
+        </div>
+    </div>
   </div>
 
   <div id="noteFromFoundersSection">
-    <div class="h3HeadingContainer">
-    <h3 class="h3Heading">
-      A Note from the Founders
-    </h3>
-    </div>
     <p id="noteFromFounders" >
       <span id="topSectionNote">
         "We are passionate about mental wellness and health because we have seen the impacts 
@@ -279,7 +289,6 @@
         make life better for everyone by supporting companies and employees in every way 
         that we can. We aim to be the first call for HR whenever they or their employees 
         need support, making mental health seamless convenient, and accessible for everyone.
-
         <br>
         <br>
         <br>
