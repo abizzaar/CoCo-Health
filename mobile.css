@@ -1,6 +1,3 @@
-
-
-
 html {
     font-family: "articulat-cf";
     font-style: normal;
@@ -17,6 +14,14 @@ html {
     
 }
 
+.navListHyperlink {
+    text-decoration: none;
+    color: black;
+}
+
+.navListHyperlink:hover {
+      background-color: #FFE3F0;
+}
 
 body {
     margin-bottom: 2rem;
@@ -37,7 +42,7 @@ h1 {
 
 h2 {
     font-size: 1.7rem; 
-    font-family: "adobe-caslon-pro";
+    font-family: 'EB Garamond', serif;
     line-height: 1.3;
     margin-bottom: 1rem;
 }
@@ -67,12 +72,17 @@ p {
     position: relative;
 }
 
+#missionScroll {
+    position: absolute;
+    top: 40vw;
+}
+
 img {
     width: 100%;
 }
 
 #imageHappyOfficeSmallScreen {
-    opacity: 0.8;
+    opacity: 1;
     margin-bottom: 3rem;
 }
 
@@ -125,8 +135,8 @@ img {
     padding-left: 0.7rem;
     padding-bottom: 0.6rem;
     padding-right: 1rem;
-    background: #F5F5F5;
-    font-family: "adobe-caslon-pro";
+    background: #F7F7F7;
+    font-family: "EB Garamond";
     font-style: italic;
     font-size: 1.1rem;
     margin-top: 1.7rem;
@@ -137,7 +147,7 @@ img {
 #imageManCoffeeSmiling {
     margin-top: 3rem;
     margin-bottom: 3rem;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 #imageManCoffeeSmilingWide {
@@ -203,7 +213,7 @@ img {
 }
 
 .h3Heading {
-    font-family: "adobe-caslon-pro";
+    font-family: 'EB Garamond', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.3rem;
@@ -248,7 +258,7 @@ img {
 }
 
 .bioName {
-    font-family: "adobe-caslon-pro";
+    font-family: 'EB Garamond', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 1.3rem;
@@ -296,8 +306,8 @@ img {
     margin-top: 1.1rem;
     padding-top: 0.8rem;
     padding-bottom: 0.6rem;
-    background: #F5F5F5;
-    font-family: "adobe-caslon-pro";
+    background: #F7F7F7;
+    font-family: "EB Garamond";
     font-size: 1.1rem;
     font-style: italic;
     box-shadow: -2px 3px 7px #C2C2C2;
@@ -315,6 +325,7 @@ img {
     padding-right: 7%;
     padding-left: 30%;
 }
+
 
 #pinkHighlightWrite {
     text-decoration: none;

@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <title>CoCoHealth | Counseling for Businesses</title>
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400i,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="general.css" />
   <link rel="stylesheet" type="text/css" href="mobile.css" />
   <link rel="stylesheet" type="text/css" href="ipad.css" />
@@ -17,9 +18,15 @@
     <span id="companyNameCoCo">CoCo</span><span id="companyNameHealth">Health</span>
   </div>
   <ul id="navList">
-    <li>MISSION</li>
-    <li>APPROACH</li>
-    <li>CONTACT</li>
+    <li>
+        <a class="navListHyperlink" data-scroll href="#missionScroll">MISSION</a>
+    </li>
+    <li>
+        <a class="navListHyperlink" data-scroll href="#laptopLine2">APPROACH</a>
+    </li>
+    <li>
+      <a class="navListHyperlink" data-scroll href="#noteSeparateHeading">CONTACT</a>
+    </li>
   </ul>
 </nav>
 
@@ -32,6 +39,7 @@
       sessions at work.
     </h1>
   </header>
+  <div id="missionScroll"></div>
 </div>
 
 <div id="containerWeMaximize" class="containerSection">
@@ -142,7 +150,7 @@
   </div>
 </div>
 
-<div class="laptopLine"></div>
+<div id="laptopLine2" class="laptopLine"></div>
 
 <div id="containerOurApproach" class="containerSection">
   <h2 class="pinkBorder">
@@ -294,9 +302,8 @@
         <br>
       </span>
       <span id="pleaseWriteToUs">
-        Please 
-        <a id="pinkHighlightWrite" href="mailto:jonathan.bateman@kellogg.northwestern.edu">
-          write</a> 
+        Please
+        <a id="pinkHighlightWrite" href="mailto:jonathan.bateman@kellogg.northwestern.edu">write</a> 
         to us. We'd love to hear from you!"
       </span>
   </p>
@@ -311,5 +318,8 @@
 </body>
 
 <script src="homepage.js"></script>
-
+<script src="smooth-scroll.polyfills.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 </html>
