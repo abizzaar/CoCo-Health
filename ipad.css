@@ -40,9 +40,9 @@
 
 
 .navListHyperlink:hover {
-      /*background-color: #FFE3F0; */
-      background-color: rgb(116,177,255,0.9);
-      color: white;
+      background-color: #FFE3F0; 
+      /*background-color: rgb(116,177,255,0.9); */
+      
 }
 
 #missionScroll {
