@@ -179,8 +179,8 @@ img {
 }
 
 #callToAction1:hover, #callToAction2:hover {
-    background: rgb(116,177,255,0.9);
-    color: white;
+    background-color: #FFE3F0; 
+    
     cursor: pointer;
 }
 
@@ -399,11 +399,10 @@ img {
 }
 
 #footer > a:hover {
-    background-color: rgb(116,177,255,1);
-  /*  background-color:rgb(255,227,240, 0.6); */
+    background-color: #FFE3F0; 
     border-color: #F8F8F8;
     cursor: pointer;
-    color: white;
+    
 }
 
 #footer > div {

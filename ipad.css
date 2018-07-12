@@ -40,8 +40,7 @@
 
 
 .navListHyperlink:hover {
-      background-color: #FFE3F0; 
-      /*background-color: rgb(116,177,255,0.9); */
+      background-color: #FFE3F0;
       
 }
 
@@ -64,9 +63,6 @@
 
 #statBlock1 {
     margin-top: 0;
-}
-
-#statBlock3 {
 }
 
 .problemStatBlock {
@@ -138,14 +134,6 @@ h1 {
     height: 3.3rem;
 }
 
-
-
-
-
-
-
-
-
 /* for ipads ONLY (not laptop) */
 @media only screen and (min-width: 600px) and (max-width: 1100px) {
     
@@ -189,4 +177,3 @@ h1 {
         
     }
 }
-
