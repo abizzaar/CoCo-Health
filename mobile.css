@@ -11,6 +11,7 @@ html {
     margin: 0 0 0 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialised;
     box-sizing: border-box;
     
 }
@@ -151,7 +152,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, rgb(255,227,240, 0.4), transparent, rgb(255,227,240, 0.4));
     margin: 3rem auto 0 auto;
     width: 80%;
     height: 3rem;
@@ -168,7 +168,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, rgb(255,227,240, 0.3), transparent, rgb(255,227,240, 0.3));
     margin: 2rem auto 0 auto;
     width: 70%;
     height: 3rem;
@@ -177,6 +176,19 @@ img {
     border: none;
     color: #262626;
 }
+
+#callToAction1, #callToAction2 {
+    background: linear-gradient(to right, rgb(255,227,240, 0.4), transparent, rgb(255,227,240, 0.4));
+    background: -webkit-linear-gradient(to right, rgb(255,227,240, 0.4), transparent, rgb(255,227,240, 0.4));
+    background: -moz-linear-gradient(to right, rgb(255,227,240, 0.4), transparent, rgb(255,227,240, 0.4));
+    background: -o-linear-gradient(to right, rgb(255,227,240, 0.4), transparent, rgb(255,227,240, 0.4));
+    background: -ms-linear-gradient(to right, rgb(255,227,240, 0.4), transparent, rgb(255,227,240, 0.4));
+}
+
+-webkit-	Google Chrome, Safari, Android Browser
+-moz-	Firefox
+-o-	Opera
+-ms-
 
 #callToAction1:hover, #callToAction2:hover {
     background-color: #FFE3F0; 
