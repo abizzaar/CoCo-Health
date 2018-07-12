@@ -13,6 +13,13 @@
 @font-face {
   font-family: "articulat-cf";
   src: url('Fonts/ArticulatCF-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url('Fonts/ArticulatCF-Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
 }

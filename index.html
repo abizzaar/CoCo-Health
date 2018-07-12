@@ -19,18 +19,18 @@
   </div>
   <ul id="navList">
     <li>
-        <a class="navListHyperlink" data-scroll href="#missionScroll">MISSION</a>
+        <a class="navListHyperlink" data-scroll customEasing=easeInOutQuint href="#missionScroll">MISSION</a>
     </li>
     <li>
-        <a class="navListHyperlink" data-scroll href="#laptopLine2">APPROACH</a>
+        <a class="navListHyperlink" data-scroll customEasing=easeInOutQuint href="#laptopLine2">APPROACH</a>
     </li>
     <li>
-      <a class="navListHyperlink" data-scroll href="#noteSeparateHeading">CONTACT</a>
+      <a class="navListHyperlink" data-scroll customEasing=easeInOutQuint href="#noteSeparateHeading">CONTACT</a>
     </li>
   </ul>
 </nav>
 
-<div  class="containerOfficeHeader">
+<div class="containerOfficeHeader">
   <img id="imageHappyOfficeSmallScreen" src="Media/happyOfficeSmallScreen.png">
   <img id="imageHappyOfficeLargeScreen" src="Media/happyOfficeLargeScreen.png">
   <header id="headerInImage">
@@ -59,6 +59,10 @@
       That’s where we come in— we provide one-on-one counseling in the workplace 
       to help you and your employees be their best selves and flourish.
   </p>
+
+  <button id="callToAction1" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScSCGs44IHHERbwjakgPnHZMelsR8QvCiA5jncPGLvSLzLr1A/viewform')">
+    GET IN TOUCH
+  </button>
 </div>
 
 <img id="imageManCoffeeSmiling" src="Media/manCoffeeSmiling.jpg">
@@ -80,34 +84,6 @@
 
 </div>
 
-
-<!--
-
-<div class="problemRow">
-  <div id="statBlock1" class="problemStatBlock">
-    <h5 class="statHeader">
-      42%
-    </h5>
-    <p class="statDescr paragraph-smaller-text">
-      of employees 
-      have left a job 
-      due to stress
-    </p>
-  </div>
-
-  <div id="statBlock2" class="problemStatBlock">
-    <h5 class="statHeader">
-      30%
-    </h5>
-    <p class="statDescr paragraph-smaller-text">
-      only 30% of 
-      employees are 
-      engaged at work
-    </p>
-  </div>
-</div>
-
- -->
 
  <div id="problemContainer">
   <div class="problemRow" id="problemRow1">
@@ -296,30 +272,35 @@
         of not taking care of our minds first-hand through family experiences. We want to 
         make life better for everyone by supporting companies and employees in every way 
         that we can. We aim to be the first call for HR whenever they or their employees 
-        need support, making mental health seamless convenient, and accessible for everyone.
-        <br>
-        <br>
-        <br>
-      </span>
-      <span id="pleaseWriteToUs">
-        Please
-        <a id="pinkHighlightWrite" href="mailto:jonathan.bateman@kellogg.northwestern.edu">write</a> 
-        to us. We'd love to hear from you!"
-      </span>
-  </p>
+        need support, making mental health seamless convenient, and accessible for everyone. We'd love to hear from you!"
+    </p>
+
+    <button id="callToAction2" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScSCGs44IHHERbwjakgPnHZMelsR8QvCiA5jncPGLvSLzLr1A/viewform')">
+      GET IN TOUCH
+    </button>
   </div>
 
-
-
-</div>
+  <footer id="footer">
+    <a data-scroll customEasing=easeInOutQuint href="#missionScroll">Mission</a>
+    <a data-scroll customEasing=easeInOutQuint href="#laptopLine2">Approach</a>
+    <a data-scroll customEasing=easeInOutQuint 
+      onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScSCGs44IHHERbwjakgPnHZMelsR8QvCiA5jncPGLvSLzLr1A/viewform')">
+      Contact
+    </a>
+    <div>
+      <p>&copy CocoHealth</p>
+      <a id="footerEmail" href="mailto:info@cocohealth.co">info@cocohealth.co</a>
+    </div>
+  </footer>
 
 
 
 </body>
 
-<script src="homepage.js"></script>
+
 <script src="smooth-scroll.polyfills.min.js"></script>
 <script>
     var scroll = new SmoothScroll('a[href*="#"]');
+
   </script>
 </html>

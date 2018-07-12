@@ -5,18 +5,48 @@
 
 /* quick nav bar stuff at start */
 #navList {
-    display: initial;
-    margin-top: 0.7rem;
-    float: right;
-    margin-right: 2vw;
+    display: flex;
+    align-self: stretch;
+    justify-self: right;
+    align-items: stretch;
+    justify-content: center;
+    width: 50%;
 }
 
 #navList li {
-    margin-left: 1.7vw;
-    display: inline-block;
-    vertical-align: middle;
-   font-size: 0.95rem;
+    flex-grow: 1;
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    font-size: 0.95rem;
     text-decoration: none;
+}
+
+.navListHyperlink {
+    font-weight: 300;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #262626;
+    flex-grow: 1;
+    
+}
+
+#companyName {
+    padding-left: 2%;
+}
+
+
+.navListHyperlink:hover {
+      /*background-color: #FFE3F0; */
+      background-color: rgb(116,177,255,0.9);
+      color: white;
+}
+
+#missionScroll {
+    top: 40vw;
 }
 
 #problemContainer {
@@ -56,7 +86,7 @@
 }
 
 h1 {
-    font-weight: 300;
+    font-weight: 200;
     font-size: 2.5vw;
     font-style: normal;
 }
@@ -75,17 +105,17 @@ h1 {
 }
 
 #imageManCoffeeSmiling {
-    display: none;
-    
-}
-
-#imageManCoffeeSmilingWide {
     display: block;
     width: 80%;
     margin: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
     opacity: 1;
+    
+}
+
+#imageManCoffeeSmilingWide {
+    display: none;
 }
 
 
@@ -101,8 +131,19 @@ h1 {
     padding-right: 3%;
 }
 
-
+#callToAction1 {
+    font-size: 1rem;
+    margin: 3.8rem auto 0 auto;
+    width: 70%;
+    height: 3.3rem;
 }
+
+
+
+
+
+
+
 
 
 /* for ipads ONLY (not laptop) */
