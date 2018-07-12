@@ -185,14 +185,8 @@ img {
     background: -ms-linear-gradient(to right, rgb(255,227,240, 0.4), transparent, rgb(255,227,240, 0.4));
 }
 
--webkit-	Google Chrome, Safari, Android Browser
--moz-	Firefox
--o-	Opera
--ms-
-
 #callToAction1:hover, #callToAction2:hover {
     background-color: #FFE3F0; 
-    
     cursor: pointer;
 }
 
