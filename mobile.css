@@ -179,12 +179,12 @@ img {
 }
 
 #callToAction1, #callToAction2 {
-    background-color: rgba(255,227,240, 0.4);
-    background: linear-gradient(to right, rgba(255,227,240, 0.4), white, rgba(255,227,240, 0.4));
-    background: -webkit-linear-gradient(to right, rgba(255,227,240, 0.4), white, rgba(255,227,240, 0.4));
-    background: -moz-linear-gradient(to right, rgba(255,227,240, 0.4), white, rgba(255,227,240, 0.4));
-    background: -o-linear-gradient(to right, rgba(255,227,240, 0.4), white, rgba(255,227,240, 0.4));
-    background: -ms-linear-gradient(to right, rgba(255,227,240, 0.4), white, rgba(255,227,240, 0.4));
+    background-color: rgba(255,227,240, 0.7);
+    background: linear-gradient(to right, rgba(255,227,240, 0.7), rgba(255,227,240, 0.2), rgba(255,227,240, 0.7));
+    background: -webkit-linear-gradient(to right, rgba(255,227,240, 0.7), rgba(255,227,240, 0.2), rgba(255,227,240, 0.7));
+    background: -moz-linear-gradient(to right, rgba(255,227,240, 0.7), rgba(255,227,240, 0.2), rgba(255,227,240, 0.7));
+    background: -o-linear-gradient(to right, rgba(255,227,240, 0.7), rgba(255,227,240, 0.2), rgba(255,227,240, 0.7));
+    background: -ms-linear-gradient(to right, rgba(255,227,240, 0.7), rgba(255,227,240, 0.2), rgba(255,227,240, 0.7));
 }
 
 
