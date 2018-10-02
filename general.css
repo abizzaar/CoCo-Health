@@ -31,7 +31,6 @@
   font-style: normal;
 }
 
-/*
 
 @font-face {
   font-family: "articulat-cf";
@@ -70,14 +69,14 @@
 
 @font-face {
   font-family: "articulat-cf";
-  src: url('Fonts/ArticulatCF-Text.otf') format('opentype');
+  src: url('Fonts/ArticulatCF-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "articulat-cf";
-  src: url('Fonts/ArticulatCF-TextOblique.otf') format('opentype');
+  src: url('Fonts/ArticulatCF-RegularOblique.otf') format('opentype');
   font-weight: 400;
   font-style: oblique;
 }
@@ -98,7 +97,7 @@
 
 @font-face {
   font-family: "articulat-cf";
-  src: url('Fonts/ArticulatCFv2-DemiBold.otf') format('opentype');
+  src: url('Fonts/ArticulatCF-DemiBold.otf') format('opentype');
   font-weight: 600;
   font-style: normal;
 }

@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-weight: 200;
    /* font-size: 2rem; */
-    font-size: 8vw;
+    font-size: 6vw;
     color: #262626;
 }
 
@@ -34,14 +34,20 @@ h2 {
     font-size: 1.7rem; 
     font-family: 'EB Garamond', serif;
     line-height: 1.3;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: #262626;
     font-weight: 700;
 }
 
 p {
     font-family: "articulat-cf";
-    
+    line-height: 1.8;
+}
+
+em {
+  font-weight: 500;
+  font-style: italic;
+  color: black;
 }
 
 .containerParagraphText {
@@ -65,6 +71,7 @@ p {
 
 .containerOfficeHeader {
     position: relative;
+    overflow: hidden;
 }
 
 #missionScroll {
@@ -78,23 +85,27 @@ img {
 
 #imageHappyOfficeSmallScreen {
     opacity: 1;
-    margin-bottom: 3rem;
 }
 
 #imageHappyOfficeLargeScreen {
     display: none;
 }
+#imageHappyOfficeIpad {
+  display: none;
+}
 
 #headerInImage {
     position: absolute;
-    margin-left: 5%;
-    padding-left: 5%;
+    margin-left: 10%;
+    padding-left: 8%;
     margin-right: 10%;
-    padding-right: 5%;
-    padding-bottom: 4vw;
-    top: 5rem;
+    padding-right: 8%;
+    padding-bottom: 7vw;
+    padding-top: 5vw;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
-    background: rgba(255, 255, 255, 0.5);
+    background: white;
 }
 
 #companyName {
@@ -121,78 +132,61 @@ img {
     margin: auto;
 }
 
-.pinkBorder {
-    padding-top: 0.4rem;
-    border-top: #FFE3F0 3px solid;
-    border-left: #FFE3F0 3px solid;
-
-    margin-left: -0.5rem;
-    padding-left: 0.4rem;
+#containerWeMaximize {
+  margin-top: 3rem;
 }
 
-
-#introToCoco {
-    padding-top: 0.6rem;
-    color: #3E3E3E;
-    padding-left: 0.7rem;
-    padding-bottom: 0.6rem;
-    padding-right: 1rem;
-    background: #F8F8F8;
-    font-family: "EB Garamond";
-    font-style: italic;
-    font-size: 1.1rem;
-    margin-top: 1.7rem;
-    font-weight: 400;
-    box-shadow: -2px 3px 7px #DBDBDB;
+.blackBorder {
+  border-top: #2B2B2B 1px solid;
+  border-bottom: #2B2B2B 1px solid;
+  padding: 1rem 0 1rem 0;
 }
 
 #callToAction1 {
     font-family: 'articulat-cf';
-    font-size: 1rem;
-    font-weight: 300;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 3rem auto 0 auto;
-    width: 80%;
-    height: 3rem;
     border-radius: 5rem;
-    box-shadow: -1px 3px 2px #DBDBDB;
     border: none;
-    color: #262626;
+    color: white;
 }
 
 #callToAction2 {
     font-family: 'articulat-cf';
-    font-weight: 300;
-    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem auto 0 auto;
-    width: 70%;
-    height: 3rem;
+    margin: 2rem auto 2rem auto;
     border-radius: 5rem;
-    box-shadow: -1px 3px 2px #DBDBDB;
+    
     border: none;
-    color: #262626;
+    color: white;
 }
 
 #callToAction1, #callToAction2 {
-    background-color: rgba(255,227,240, 0.7);
-    background: linear-gradient(to right, rgba(255,227,240, 0.7), rgba(255,227,240, 0.2), rgba(255,227,240, 0.7));
-    background: -webkit-linear-gradient(to right, rgba(255,227,240, 0.7), rgba(255,227,240, 0.2), rgba(255,227,240, 0.7));
-    background: -moz-linear-gradient(to right, rgba(255,227,240, 0.7), rgba(255,227,240, 0.2), rgba(255,227,240, 0.7));
-    background: -o-linear-gradient(to right, rgba(255,227,240, 0.7), rgba(255,227,240, 0.2), rgba(255,227,240, 0.7));
-    background: -ms-linear-gradient(to right, rgba(255,227,240, 0.7), rgba(255,227,240, 0.2), rgba(255,227,240, 0.7));
+    box-shadow: -1px 3px 2px #DBDBDB;
+    background: #6100EE;
+    height: 2.7rem;
+    width: 10rem;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 
 
 #callToAction1:hover, #callToAction2:hover {
-    background: #FFE3F0; 
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
     cursor: pointer;
+    background: #8A39FF;
 }
+
+button:focus {
+  outline: 1px solid rgba(138,57,255,0.2);
+}
+
 
 
 
@@ -207,44 +201,36 @@ img {
 }
 
 .problemRow {
-    display: flex;
-    margin-top: 1rem;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-top: 1rem;
+  border-top: rgba(0,0,0,0.2) 1px solid;
 }
 
 .problemStatBlock {
-    border: #DEDEDE 1px solid;
     margin-left: auto;
     margin-right: auto;
     width: 8.5rem;
+    margin-top: 1rem; 
 }
 
 .statHeader {
-    font-weight: 100;
-    border-bottom: #FFE3F0 3px solid;
+    font-weight: 700;
+    font-style: normal;
     text-align: center;
+    font-size: 1.7rem;
 }
 
 .statDescr {
-    padding-top: 0.2rem;
     padding-bottom: 0.4rem;
     padding-left: 0.4rem;
     padding-right: 0.4rem;
     text-align: center;
-}
-
-#statBlock1 {
-    font-size: 3.5rem;
-    margin-top: 0.5rem;
-    float: left;
-}
-
-#statBlock2 {
-    font-size: 3.5rem;
-    float: left;
+    
 }
 
 #statBlock3 {
-    font-size: 3.1rem;
     margin-bottom: 3rem;
 }
 
@@ -254,14 +240,33 @@ img {
 }
 
 #imageCounselor {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 3rem;
 }
 
 .h3HeadingContainer {
     display: flex;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7rem;
+    margin-top: 0.2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerBullet {
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: rgba(0,0,0,0.2) 1px solid;
+}
+
+.containerBullet img {
+  width: 8.5rem;
+  margin-left: -0.5rem;
+  margin: auto;
+  display: block;
+}
+
+.containerBullet:first-child {
+  border-top: none;
 }
 
 .h3Heading {
@@ -271,12 +276,13 @@ img {
     font-size: 1.3rem;
     line-height: 1.2;
     float: left;
-    border-bottom: #FFE3F0 3px solid;
     color: #262626
 }
 
 .ourApproachRowParagraph {
-    padding-right: 1.5rem;
+    padding: 0 0.5rem;
+    text-align: center; 
+    
 }
 
 
@@ -284,12 +290,17 @@ img {
     width: 80%;
     margin: auto;
     display: flex;
+    padding-bottom: 1.5rem;
     margin-bottom: 1.5rem;
     font-size: 0;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    border-bottom: rgba(0,0,0,0.2) 1px solid;
 }
 
 .imageAboutUsContainer {
-    width: 50%;
+    width: 12rem;
     float: left;
 }
 
@@ -298,16 +309,12 @@ img {
 }
 
 .containerBioAboutUs {
-    float: left;
-    padding-left: 7%;
-    width: 45%;
+    text-align: center;
 }
 
 .containerBioAndTitle {
     padding-top: 0.5rem;
     margin-bottom: 0.2em;
-    width: 80%;
-    border-bottom: #FFE3F0 3px solid;
 }
 
 .bioName {
@@ -350,28 +357,9 @@ img {
     margin-top: 2rem;
 }
 
-#noteFromFoundersSection {
+#noteFromFounders {
     margin-left: 10%;
     margin-right: 10%;
-}
-
-#noteFromFounders {
-    margin-top: 1.1rem;
-    padding-top: 0.8rem;
-    padding-bottom: 0.6rem;
-    background: #F8F8F8;
-    color: #3E3E3E;
-    font-family: "EB Garamond";
-    font-size: 1.1rem;
-    font-style: italic;
-    font-weight: 400;
-    box-shadow: -2px 3px 7px #E0E0E0;
-}
-
-#topSectionNote {
-    display: block;
-    padding: 0.5rem 1.4rem 0.5rem 1rem;
-
 }
 
 #pleaseWriteToUs {
@@ -386,18 +374,18 @@ img {
 #footer {
     margin-top: 3rem;
     display: flex;
-    background-color: #F8F8F8;
+    background-color: #242424;
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
     clear: both;
     height: 10rem;
-    padding-bottom: 0.5rem;
+    color: white;
 }
 
 #footer > a {
     text-decoration: none;
-    color: black;
+    color: white;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -405,7 +393,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    border-bottom: 2px solid #E0E0E0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
     font-weight: 300;
 }
 
@@ -417,18 +405,21 @@ img {
 }
 
 #footer > div {
-    height: 2rem;
+    height: 2.5rem;
     display: flex;
     justify-content: space-between;
-    padding: 0 0.8rem;
+    padding: 1rem 0.8rem 1rem 0.8rem;
     font-size: 0.9rem;
     align-items: center;
-    
+    background: #242424;
+}
+
+#footer p {
+  color: rgba(255,255,255,0.7);
 }
 
 #footerEmail {
-
-    color: #793232;
+    color: rgba(255,255,255,0.7);
 }
 
 /* for iphone5 and other thin phones */
@@ -443,3 +434,6 @@ img {
     }
 }
 
+.colored-section {
+  
+}
