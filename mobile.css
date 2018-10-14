@@ -7,6 +7,10 @@ html {
     color: #3E3E3E;
 }
 
+body {
+  background: linear-gradient(blue, red);
+} 
+
 * {
     margin: 0 0 0 0;
     padding: 0;
@@ -158,11 +162,20 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem auto 2rem auto;
+    margin: 2rem auto 0 auto;
     border-radius: 5rem;
-    
     border: none;
     color: white;
+}
+
+.spacerStart {
+  width: 100%;
+  height: 0.1rem;
+}
+
+.spacerEnd {
+  width: 100%;
+  height: 7rem;
 }
 
 #callToAction1, #callToAction2 {
@@ -372,7 +385,6 @@ button:focus {
 
 
 #footer {
-    margin-top: 3rem;
     display: flex;
     background-color: #242424;
     flex-direction: column;
@@ -386,22 +398,20 @@ button:focus {
 #footer > a {
     text-decoration: none;
     color: white;
-    width: 100%;
+    display: inline;
     display: flex;
     flex-direction: row;
     text-align: center;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
     font-weight: 300;
 }
 
-#footer > a:hover {
-    background-color: #FFE3F0; 
+#footer > span:hover {
     border-color: #F8F8F8;
     cursor: pointer;
-    
 }
 
 #footer > div {
@@ -432,8 +442,4 @@ button:focus {
     #logoKellogg {
         height: 0.6rem;
     }
-}
-
-.colored-section {
-  
 }
