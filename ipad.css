@@ -47,10 +47,9 @@
   left: 0;
   top: 100%;
   margin-top: 0;
-  transition: 1s all;
   background: #6100EE;
   opacity: 1;
-  transition: all 0.1s;
+  transition: all 0.3s;
 }
 
 

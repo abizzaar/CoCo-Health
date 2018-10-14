@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "website for coco health",
   "main": "Gruntfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "@material/linear-progress": "^0.40.1"
+  },
   "devDependencies": {
     "autoprefixer": "^9.1.5",
     "grunt": "^1.0.3",

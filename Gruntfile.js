@@ -2,6 +2,13 @@
 module.exports = function (grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    copy: {
+      main: {
+        expand: true,
+        src: ['**', '!node_modules/**', '!Gruntfile.js', '!dist/**', '!package.json', '!package-lock.json', '!Readme.md'],
+        dest: 'dist/',
+      },
+    },
     postcss: { // Begin Post CSS Plugin
       options: {
         map: false,
@@ -12,7 +19,7 @@ module.exports = function (grunt) {
     ]
       },
       dist: {
-        src: 'dist/**/*.css'
+        src: 'dist/**/*.css',
       }
     },
     cssmin: { // Begin CSS Minify Plugin
@@ -23,17 +30,10 @@ module.exports = function (grunt) {
     }]
       }
     },
-    copy: {
-      main: {
-        expand: true,
-        src: ['**', '!node_modules/**', '!Gruntfile.js', '!dist/**', '!package.json', '!package-lock.json', '!**/*.css', '!Readme.md'],
-        dest: 'dist/',
-      },
-    },
     watch: { // Compile everything into one task with Watch Plugin
       css: {
         files: ['**/*.css', '**/*.html', '!dist/**'],
-        tasks: ['postcss', 'cssmin', 'copy']
+        tasks: ['copy', 'postcss', 'cssmin']
       }
     }
   });
