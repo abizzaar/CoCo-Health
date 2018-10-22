@@ -210,8 +210,8 @@
         width: 30%;
         display: inline-block;
         vertical-align: middle;
-        border-top: 1px solid #848484; 
-        border-bottom: 1px solid #848484; 
+        border-top: 1px solid rgba(255,255,255,.2); 
+        border-bottom: 1px solid rgba(255,255,255,.2); 
         height: 2.1rem;
         padding: 0.17rem 0;
         position: relative;
@@ -231,7 +231,7 @@
     }
 
     #footer > a:hover {
-      border: 1px solid #848484;
+      border: 1px solid rgba(255,255,255,.2); 
       cursor: pointer;
     }
 
